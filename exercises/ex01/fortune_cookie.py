@@ -13,15 +13,15 @@ from random import randint
 
 
 # Begin your solution here...
-fortune_cookie: int = int(input("Your fortune cookie says..."))
-print(randint(1, 100))
+print("Your fortune cookie says...")
+fortune_cookie : int = int(randint(1, 100))
 
 if fortune_cookie < 30:
     print("A lifetime of happiness lies ahead of you.")
-else:
-    if fortune_cookie < 60:
+if 30 < fortune_cookie < 60:
         print("A pleasant surprise is waiting for you.")
-    if fortune_cookie < 80:
+else:
+    if 60 < fortune_cookie < 80:
         print("A faithful friend is a strong defense.")
     else:
         print("A hunch is creativity trying to tell you something.")
