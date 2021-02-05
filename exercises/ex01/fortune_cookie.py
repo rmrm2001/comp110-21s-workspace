@@ -25,6 +25,6 @@ else:
         if 60 < fortune_cookie < 80:
             print("A faithful friend is a strong defense.")
         else:
-            print("A hunch is creativity trying to tell you something.")
+            print("Adventure can be real happiness.")
        
 print("Now, go spread positive vibes!")
