@@ -16,14 +16,15 @@ from random import randint
 print("Your fortune cookie says...")
 fortune_cookie : int = int(randint(1, 100))
 
-if fortune_cookie < 30:
+if 0 < fortune_cookie < 30:
     print("A lifetime of happiness lies ahead of you.")
-if 30 < fortune_cookie < 60:
-        print("A pleasant surprise is waiting for you.")
-else:
-    if 60 < fortune_cookie < 80:
-        print("A faithful friend is a strong defense.")
+else: 
+    if 30 < fortune_cookie < 60:
+        print ("A pleasant surprise is waiting for you.")
     else:
-        print("A hunch is creativity trying to tell you something.")
-
+        if 60 < fortune_cookie < 80:
+            print("A faithful friend is a strong defense.")
+        else:
+            print("A hunch is creativity trying to tell you something.")
+       
 print("Now, go spread positive vibes!")
